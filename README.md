@@ -1,4 +1,4 @@
-# coffee-counter
+# Event Handler - coffee-counter
 
 ## Practice
 * An appropriate title and top-level heading
