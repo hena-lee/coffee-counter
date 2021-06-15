@@ -1,0 +1,76 @@
+html, body {
+    background: url(wallpaper.jpeg) no-repeat center center fixed;/*photo credit LoFi Geek*/ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+#coffeeCount {
+    margin: auto;
+    margin-top: 18%;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    height: 98vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#coffee {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40%;
+    height: 60%;
+}
+
+#counter {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 40%;
+    height: 60%;
+
+}
+#shelf {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-content: space-evenly;
+}
+
+#buttons {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;   
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
